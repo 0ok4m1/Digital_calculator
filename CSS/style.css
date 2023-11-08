@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAmL4KAKSy3U-6BwpDEvTmSZoFrVwops1WJK5ECjkzbrhuLQnC_UZTteRjVX_PBkTiFYucBY-7kFXq_qbCy4dxgBkP9IQUrWnfR4ztd6a0i6vj35U19NCWOJ39K4ay-1zCuXPblalnMWWSpBJamEzzbCCRoa3Gb2eQcXks7858aopJn2GYGji-7hjvug/s3840/lofi-anime-girl-studying-1282023.png') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px black;
+}
+
+.calculadora {
+    background: url('https://img.freepik.com/premium-vector/abstract-watercolour-purple-background-paper-texture_199112-723.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 4%;
+    padding: 2%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .7);
+
+}
+
+#resultado {
+    background-color: #fff;
+    margin: 4% auto;
+    font-size: 1.5rem;
+    color: #000;
+    text-align: right;
+    padding: 1%;
+    overflow: hidden;
+    height: 2rem;
+    width: 13.7rem;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+    margin: 0.2rem;
+    background-color: #fff;
+    border-color: #6736B2;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #ddc6ee;
+    transition: .4s;
+}
